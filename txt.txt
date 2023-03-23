@@ -1,0 +1,156 @@
+@media (max-width: 767px) {
+  .hero-section {
+    padding: 50px;
+    height: auto;
+  }
+
+  #heading-background {
+    font-size: 1.8rem;
+    width: 250px;
+  }
+
+  #paragraph-background {
+    width: 300px;
+    font-size: 1rem;
+  }
+
+  .activity-cards {
+    width: 100%;
+  }
+
+  .activity-img {
+    height: 150px;
+  }
+
+  .activity-heading {
+    font-size: 1.2rem;
+  }
+
+  .activity-paragraph {
+    font-size: 1rem;
+  }
+
+  #giud-img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+
+
+/* Default styles for all screens */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Rowdies", cursive;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.hero-section {
+  background-image: url(images/Quetta-city.jpg);
+  background-size: cover;
+  padding: 100px;
+  color: white;
+  height: 57vh;
+}
+
+.hero-text {
+  position: relative;
+  top: 9%;
+}
+
+#heading-background {
+  background-color: #1d3557;
+  font-size: 2.1rem;
+  width: 300px;
+  margin: auto;
+  border-radius: 9px;
+  padding: 10px;
+  text-shadow: 4px 3px 6px black;
+}
+
+#paragraph-background {
+  background-color: #457b9d;
+  border-radius: 9px;
+  width: 400px;
+  margin: 10px auto;
+  padding: 5px 10px 5px 10px;
+  line-height: 25px;
+  text-shadow: 4px 3px 6px black;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+
+  /* Adjust font sizes */
+  #heading-background {
+    font-size: 1.6rem;
+    width: 240px;
+    padding: 8px;
+  }
+
+  #paragraph-background {
+    width: 280px;
+    padding: 5px 8px 5px 8px;
+    line-height: 20px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  /* Adjust padding and height of hero section */
+  .hero-section {
+    padding: 60px;
+    height: auto;
+  }
+
+  .hero-text {
+    top: 5%;
+  }
+
+  /* Adjust size of activity cards */
+  .activity-cards {
+    width: 300px;
+    margin: 20px auto;
+  }
+
+  /* Adjust size of guide section */
+  #giud-img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .guid-hading {
+    font-size: 1.8rem;
+  }
+
+  .guid-paragraph {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+}
+
+
+
+
+

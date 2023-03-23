@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Rowdies", cursive;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.hero-section {
+  background-image: url(images/Quetta-city.jpg);
+  background-size: cover;
+  padding: 100px;
+  color: white;
+  height: 57vh;
+}
+
+.hero-text {
+  position: relative;
+  top: 9%;
+}
+
+#heading-background {
+  background-color: #1d3557;
+  font-size: 2.1rem;
+  width: 300px;
+  margin: auto;
+  border-radius: 9px;
+  padding: 10px;
+  text-shadow: 4px 3px 6px black;
+}
+
+#paragraph-background {
+  background-color: #457b9d;
+  border-radius: 9px;
+  width: 400px;
+  margin: 10px auto;
+  padding: 5px 10px 5px 10px;
+  line-height: 25px;
+  text-shadow: 4px 3px 6px black;
+}
+
+.activity-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: 10px 10px 5px;
+}
+
+.activities-section {
+  background-color: #f1faee;
+  padding: 10px 0 10px 0;
+}
+
+.activity-contant {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+}
+
+.activity-heading {
+  width: 250px;
+  margin: 20px auto 10px auto;
+  line-height: 35px;
+}
+
+.activity-paragraph {
+  width: 400px;
+  margin: auto;
+  margin: 20px 0 5px 0;
+  line-height: 25px;
+}
+
+.guid-section {
+  display: flex;
+  background-color: #a8dadc;
+  width: 400px;
+  padding: 30px 80px 30px 20px;
+  margin: 70px auto 70px auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px;
+}
+
+#giud-img {
+  width: 180px;
+  height: 248.67px;
+  border-radius: 20px;
+}
+
+.guid-paragraph {
+  width: 289px;
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    padding: 0;
+  }
+
+  #heading-background {
+    font-size: 1.1rem;
+    width: 254px;
+  }
+
+  #paragraph-background {
+    width: 320px;
+    margin: 29px auto;
+  }
+
+  .activity-contant {
+    flex-wrap: wrap;
+  }
+  .guid-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0px;
+  }
+}
